@@ -9,7 +9,7 @@
 position = Vector2( 189, 469 )
 
 [node name="Zona2" parent="." instance=ExtResource( 2 )]
-position = Vector2( 710, 184 )
+position = Vector2( 752, 156 )
 
 [node name="Area2D" parent="." instance=ExtResource( 1 )]
 
