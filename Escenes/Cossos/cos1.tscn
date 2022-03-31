@@ -8,14 +8,14 @@
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 6 ) ],
-"loop": true,
-"name": "saltar",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "quiet",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ) ],
+"loop": true,
+"name": "saltar",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 7 ), ExtResource( 3 ) ],
@@ -44,6 +44,6 @@ shape = SubResource( 1 )
 current = true
 limit_left = 0
 limit_top = -200
-limit_right = 1569325056
+limit_right = 8200
 limit_bottom = 600
 drag_margin_h_enabled = true

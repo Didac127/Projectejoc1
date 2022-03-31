@@ -43,3 +43,15 @@ func animacio(velocitat):
 func _on_Area2D_body_entered(body):
 	get_tree().change_scene("res://Escenes/Escena portals.tscn")
 	
+
+
+func _on_Area2D2_area_entered(area):
+	get_tree().reload_current_scene()
+
+
+func _on_Area2D3_area_entered(area):
+	get_tree().reload_current_scene()
+
+
+func _on_Area2D4_area_entered(area):
+	get_tree().reload_current_scene()

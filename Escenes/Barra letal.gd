@@ -5,7 +5,7 @@ extends Area2D
 # var a = 2
 # var b = "text"
 
-var velocitat_rapida=3
+var velocitat_rapida=3.5
 var velocitat_lenta=1
 var time=0
 # Called when the node enters the scene tree for the first time.
