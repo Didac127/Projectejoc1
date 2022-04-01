@@ -119,7 +119,7 @@ position = Vector2( 8158, -1513 )
 rotation = 1.5708
 
 [node name="KinematicBody2D" parent="." instance=ExtResource( 2 )]
-position = Vector2( 158, 387 )
+position = Vector2( 172, 459 )
 
 [connection signal="area_entered" from="Area2D2" to="KinematicBody2D" method="_on_Area2D2_area_entered"]
 [connection signal="body_entered" from="Area2D" to="KinematicBody2D" method="_on_Area2D_body_entered"]
