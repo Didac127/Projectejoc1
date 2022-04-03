@@ -41,17 +41,26 @@ func animacio(velocitat):
 
 
 func _on_Area2D_body_entered(body):
-	get_tree().change_scene("res://Escenes/Escena portals.tscn")
+	if (body.name == "KinematicBody2D"):
+		get_tree().change_scene("res://Escenes/Escena portals.tscn")
 	
 
 
-func _on_Area2D2_area_entered(area):
+func _on_Area2D2_body_entered(body):
+	if (body.name == "KinematicBody2D"):
+		get_tree().reload_current_scene()
+
+
+func _on_Area2D3_body_entered(body):
 	get_tree().reload_current_scene()
 
 
-func _on_Area2D3_area_entered(area):
+func _on_Area2D4_body_entered(body):
 	get_tree().reload_current_scene()
 
 
-func _on_Area2D4_area_entered(area):
+
+
+
+func _on_Area2D5_body_entered(body):
 	get_tree().reload_current_scene()
