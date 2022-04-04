@@ -15,7 +15,6 @@ func _ready():
 func _process(delta):
 	animaciolava()
 func animaciolava():
-	print("b")
 	$AnimatedSprite.play("lava")
 	$AnimatedSprite2.play('lava')
 	$AnimatedSprite3.play('lava')
